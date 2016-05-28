@@ -5,9 +5,9 @@
   :min-lein-version "2.0.0"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[cljsjs/react "15.0.1-1" :scope "provided"]
-                 [cljsjs/react-dom "15.0.1-1" :scope "provided"]
-                 [cljsjs/react-dom-server "15.0.1-1" :scope "provided"]
+  :dependencies [[cljsjs/react "15.1.0-0" :scope "provided"]
+                 [cljsjs/react-dom "15.1.0-0" :scope "provided"]
+                 [cljsjs/react-dom-server "15.1.0-0" :scope "provided"]
                  [org.clojure/clojure "1.8.0" :scope "provided"]
                  [org.clojure/clojurescript "1.8.51" :scope "provided"]]
   :aliases {"ci" ["do"
@@ -54,12 +54,12 @@
   :profiles {:dev {:dependencies [[cljsjs/jquery "2.2.2-0"]
                                   [crate "0.2.5"]
                                   [criterium "0.4.4"]
-                                  [devcards "0.2.1-6" :exclusions [sablono]]
+                                  [devcards "0.2.1-7" :exclusions [sablono]]
                                   [doo "0.1.6"]
-                                  [figwheel-sidecar "0.5.2"]
+                                  [figwheel-sidecar "0.5.3-2"]
                                   [hickory "0.6.0"]
                                   [reagent "0.6.0-alpha"]
-                                  [rum "0.8.2"]]
+                                  [rum "0.8.3"]]
                    :plugins [[lein-cljsbuild "1.1.3"]
                              [lein-doo "0.1.6"]
                              [lein-figwheel "0.5.2"]]
